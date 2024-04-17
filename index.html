@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"><b>Amogha M</b></div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Skills</a></li>
+        <li><a href="#projects">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Amogha M</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/photo.jpg" alt="profile picture" class="photo" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Amogha M</h1>
+      <p class="section__text__p2">Software Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Amogha_M_Resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-2" onclick="location.href='#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/amogha-m-836a00257" target="_blank">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" id="icon1" />
+        </a>
+        <!-- <img src="./assets/instagram.png" alt="My instagram " class="icon" id="icon1"
+          onclick="location.href='https://www.instagram.com/invites/contact/?i=1hynr6tr6qdq6&utm_content=2wpqq0l'" /> -->
+        <!-- <img src="./assets/facebook.png" alt="My facebook " class="icon" id="icon1"
+          onclick="location.href='www.facebook.com'" /> -->
+        <a href="https://github.com/Amogha1M" target="_blank">
+          <img src="./assets/github.png" alt="My github profile" class="icon" id="icon1" />
+        </a>
+
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/pic 3.jpg" height="320px" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Grades</h3>
+            <p style="text-align: justify;">10th - 94%<br />12th - 90%,<br /> B.E - 9.49 cgpa(till 7th sem)</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p style="text-align: justify;"><b>SSLC</b> - "St.Joseph's English Med High School" <br><b>PU</b> - "Govt
+              junior PU College"<br /><b>B.E</b> - "MVJ College of Engineering"</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p style="text-align: justify;">
+            As a software engineer, my aspiration is to leverage my skills
+            and expertise to create innovative and impactful software
+            solutions that solve real-world problems. I am passionate
+            about coding and enjoy the process of designing,
+            developing, and deploying software applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title"> Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Languages</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>C</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>C++</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>Java</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>HTML</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>CSS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>SQL</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>JavaScript</h3>
+              </div>
+            </article>
+            <!-- <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>python</h3>
+              </div>
+            </article> -->
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>React JS</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Course Work</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>Data Structures</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>DBMS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>Computer Networks</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>Operating System</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>Git/GitHub</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+              <div>
+                <h3>OOPS Concept</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Works</h1><br>
+    <div class="details-container">
+      <h2 class="experience-sub-title">Projects</h2>
+      <div class="article-container" style="justify-content: space-between;">
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+            <div>
+            <a href="https://github.com/Amogha1M/Stack-Overflow-Clone" style="text-decoration: none;" title="Click here for project link"  target="_blank" ><h3>Stack Overflow Clone</h3> </a>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+            <div>
+              <a href="https://github.com/Amogha1M/Fake-News-Prediction" style="text-decoration: none;" title="Click here for project link"  target="_blank" ><h3>Fake News Prediction</h3> </a>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+            <div>
+              <a href="https://github.com/Amogha1M/Skin-cancer-detection" style="text-decoration: none;" title="Click here for project link"  target="_blank" ><h3>Skin Cancer Detection</h3> </a>
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+            <div>
+              <a href="https://github.com/Amogha1M/American-Express-Data-Analysis" style="text-decoration: none;" title="Click here for project link"  target="_blank" ><h3>American Express Analysis</h3> </a>
+            </div>
+          </article>
+      </div>
+      <h2 class="experience-sub-title">Internships</h2>
+      <div class="article-container" class="intern" style="padding: 20px 0;">
+        <article style="margin-bottom: 20px;">
+          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+          <div>
+            <h3>Data Science Intern</h3>
+            <p>SmartKnower</p>
+          </div>
+        </article>
+        <article style="margin-bottom: 20px;">
+          <img src="./assets/checkmark.png" alt="Experience icon" class="icon" id="icon1" />
+          <div>
+            <h3>Web Development</h3>
+            <p>NullClass</p>
+          </div>
+        </article>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:examplemail@gmail.com" target="_blank">amoghamsagar@gmail.com</a></p>
+        </div>
+        <!-- <div class="contact-info-container">
+          <img src="./assets/whatsapp.png" alt="whatsapp icon" class="icon contact-icon" />
+          <p> <a href="https://wa.me/+917338522320" target="_blank">Whatsapp</a></p>
+        </div> -->
+        <div class="contact-info-container">
+          <img src="./assets/call.jpg" alt="phone icon" class="icon contact-icon" />
+          <p><a href="tel:+917338522320" target="_blank">+917338522320</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
